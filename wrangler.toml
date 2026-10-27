@@ -1,0 +1,7 @@
+name = "karim7744-ceo-v100-robot"
+main = "src/index.ts"
+compatibility_date = "2025-10-27"
+
+# Placeholder minimal.
+# Aucun secret, aucun account_id, aucun token n'est stocké ici.
+# Ce fichier est un espace de configuration neutre et non actif.

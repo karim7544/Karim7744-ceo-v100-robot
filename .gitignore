@@ -1,0 +1,41 @@
+# Git ignore
+
+# Node / package managers
+node_modules/
+.npm/
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.pfx
+*.secret
+*.token
+
+# Build / output
+.dist/
+dist/
+build/
+out/
+coverage/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Cloudflare / workers
+.wrangler/
+*.log
+
+# Archives / dumps
+*.zip
+*.tar
+*.gz
+*.rar

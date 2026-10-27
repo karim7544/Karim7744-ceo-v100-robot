@@ -1,0 +1,15 @@
+{
+  "name": "karim7744-ceo-v100-robot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --import tsx src/index.ts",
+    "build": "tsc --noEmit",
+    "check": "npm run build"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.4"
+  }
+}
